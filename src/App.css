@@ -1,38 +1,278 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+body{
+  background-color: #0d1117;
+  color:#e9f6fc;
+  font-family: 'Oswald', sans-serif;
+  display:flex;
+  justify-content:center;
+  text-align:center;
+  align-items: center;
+  font-size: 25px;
+  width: 100vw;
+  height: 100%;
+}
+.SearchBox{
+  
+  width: 100%;
+  padding: 1vw;
+}
+.inputBox{
+  width:100%;
+  padding: 15px;
+  background-color: #0d1117;
+  border-radius:5%;
+  color: #e9f6fc; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.popularUsers{
+  margin-top: 5vw;
+  margin-bottom: 5vw;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.LandingPage{
+  display:flex;
+  justify-content: center;
   flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 50vw;
+}
+.LandingUser{
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  border-radius: 10%;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #12161d;
+}
+ul{
+  list-style: none;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-top: 2px solid #12161d;
+  padding: '2vw';
+  margin-bottom: 0;
+  font-family: 'Raleway', sans-serif;
+}
+li{
+  padding-top: 1vw;
+  padding-bottom: 1vw
+}
+.reposList{
+  display:flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+}
+.codeIcon{
+  padding-right: 1vw;
+}
+
+.NameLink{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  border-radius: 2%; 
+}
+.userLink{
+  width:50%;
+}
+.userType{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+.type{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+}
+.gridButton{
+  width: 100%;
+  padding: 6px;
+  margin-top: 15px;
+  align-items: center;
+  background-color:#161b24;
+}
+.gridButton:hover{
+  background-color:#242c3a;
+  cursor:pointer;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.searchButton{
+  display:flex;
+  justify-content: right;
+  font-size: 16px;
+  border-radius: 5%;
+  margin-top: 10px;
+  border: 1px solid #464a4e;
+}
+.searchIcon{
+  display:flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+}
+.backToLanding{
+  display:flex;
+  align-items: left;
+  justify-content: left;
+  text-align: center;
+  font-size: 20px;
+  width: 20%;
+  margin-bottom: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+a{
+  background-color:#21262d;
+  color:#e9f6fc;
+  text-decoration:none;
+  border-radius: 10px;
+  padding: 5px;
+  width:100%;
+}
+a:hover, .searchBtn:hover {
+  background-color:#12161d;
+  cursor:pointer;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.footer{
+  font-family: 'Yellowtail', cursive;
+  width: 100%;
+}
+
+img{
+  border-radius: 50%;
+  width: 25vw;
+  height: 25vw;
+}
+
+.gridView{
+  display:grid;
+  grid-template-columns: 40vw 40vw;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vw;
+  margin-right: 3vw;
+  margin-bottom: 5vw;
+}
+
+.listView {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.organisationArray{
+  display:grid;
+  grid-template-columns: 20% 20% 20%;
+  justify-content: space-evenly;
+  border-top: 1px solid #373a3d;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.organisation{
+  display:flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1px;
+  padding: 5px;
+  margin-top: 15px;
+  border-radius: 2px;
+  width: 100%;
+}
+.orgsAvatar{
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+.UserPage{
+  width: 90vw;
+  display:flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 950px) {
+  .gridView{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
   }
-  to {
-    transform: rotate(360deg);
+  .gridButton{
+    cursor:none;
   }
 }
+@media only screen and (max-width:600px){
+  body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  img{
+    width: 50vw;
+    height: auto;
+  }
+  .SearchBox{
+    width:90vw;
+  }
+  .userType{
+    flex-direction: column;
+    font-size: 30px;
+  }
+  .NameLink{
+    font-size:30px;
+  }
+  .backToLanding{
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    width: 90vw;
+    margin-bottom: 1vh;
+  }
+  ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items:flex-start;
+    text-align: left;
+  }
+  .organisationArray{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .orgsAvatar{
+    width: 30vw;
+    height: auto;
+  }
+}
+
+
