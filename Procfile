@@ -1,1 +1,1 @@
-web : env-cmd -f .env start index.js
+web : env-cmd -f .env npm run build
