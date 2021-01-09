@@ -1,9 +1,5 @@
 import Axios from 'axios';
 
-
-
-
-
 const baseUrl = 'https://api.github.com/users'
 const token = process.env.REACT_APP_TOKEN;
 console.log('token',token);
