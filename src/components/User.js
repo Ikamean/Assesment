@@ -43,7 +43,7 @@ const User = ({login}) =>{
     return(
         <div className='userDetails' >
             <div className='NameLink'>
-                <Link to={`/Assesment/${userData.login}`} className='userLink'>{userData.name? userData.name : userData.login} </Link>
+                <Link to={`/${userData.login}`} className='userLink'>{userData.name? userData.name : userData.login} </Link>
             </div>
             <div >
                 <h4 className='userType'>
