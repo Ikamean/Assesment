@@ -1,1 +1,0 @@
-web : env-cmd -f .env react-scripts start
