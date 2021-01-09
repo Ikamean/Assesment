@@ -67,7 +67,7 @@ const Landing = () =>{
                         </div>
                         
                         <div className='searchButton'>
-                            <Link to={notFound?'/404' : `/Assesment/${search}` } 
+                            <Link to={notFound?'/404' : `/${search}` } 
                             className='searchLink' >Search User</Link>
                         </div>
                     </div>

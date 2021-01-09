@@ -10,7 +10,7 @@ const UserPage = ({match}) =>{
         <div className='UserPage'>
 
             <div className='backToLanding'>
-                <Link to='/Assesment'>Landing Page</Link>
+                <Link to='/'>Landing Page</Link>
             </div>
 
             <div>

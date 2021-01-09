@@ -11,8 +11,8 @@ function App() {
     <Router>
       <Switch>
       <Route path='/404' exact component={Error} />
-      <Route path='/Assesment' exact component={Landing} />
-      <Route path='/Assesment/:login' component={UserPage} />
+      <Route path='/' exact component={Landing} />
+      <Route path='/:login' component={UserPage} />
       </Switch>
     </Router>
   );

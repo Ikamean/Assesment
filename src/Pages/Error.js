@@ -22,7 +22,7 @@ const Error = ()=>{
             </span>
             <h4 >**User Not Found**</h4>
             <div >
-                <Link to='/Assesment'>Landing Page</Link>
+                <Link to='/'>Landing Page</Link>
             </div>
         </div>
     )
