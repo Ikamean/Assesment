@@ -1,1 +1,1 @@
-web: env-cmd -f .env react-scripts start
+web: env-cmd -f .env node index.js
