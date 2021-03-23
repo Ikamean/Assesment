@@ -1,5 +1,6 @@
-## Viev Live Project  [Github Users](https://bitcamp-assesment.herokuapp.com/)
 ## Bitcamp internship assesment task for Omedia
+## Viev Live Project  [Github Users](https://bitcamp-assesment.herokuapp.com/)
+
 
 # Getting Started with Create React App
 
