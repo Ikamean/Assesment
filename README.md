@@ -1,5 +1,5 @@
 ## Viev Live Project 
-[https://bitcamp-assesment.herokuapp.com/](Github Users)
+[Github Users](https://bitcamp-assesment.herokuapp.com/)
 
 # Getting Started with Create React App
 
